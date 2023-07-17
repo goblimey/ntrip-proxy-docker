@@ -180,11 +180,11 @@ so the config file would be something like
 ```
 {
     "local_host": "example.com",
-	"local_port": 2102,
-	"remote_host": "localhost:2101",
+    "local_port": 2102,
+    "remote_host": "localhost:2101",
     "control_port": 5001,
-	"record_messages": true,
-	"message_log_directory": "./logs"
+    "record_messages": true,
+    "message_log_directory": "./logs"
 }
 ```
 
