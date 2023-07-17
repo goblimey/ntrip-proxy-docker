@@ -7,7 +7,6 @@ user=$2
 
 # Set up the container ready to build the application.
                      
-echo install
 apt update
 apt -y install ssh
 apt -y install git
