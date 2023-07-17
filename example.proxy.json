@@ -1,0 +1,8 @@
+{
+    "local_host": "192.168.0.10",
+    "local_port": 2101,
+    "remote_host": "example.com:2101",
+    "control_port": 5001,
+    "record_messages": true,
+    "message_log_directory": "./logs"
+}
