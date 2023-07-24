@@ -32,8 +32,7 @@ For example, this command builds the image and supplies the name and
 ID of the user who is running the build command:
 
 ```
-   docker build --rm -t ntrip-proxy \
-       --build-arg user=${USER} --build-arg uid=${UID} .
+   docker build --rm -t ntrip-proxy --build-arg user=${USER} --build-arg uid=${UID} .
 ```
 
 (Note the dot at the end of the line, which tells docker in which
